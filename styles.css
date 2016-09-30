@@ -1,4 +1,29 @@
 body {
-	background: white;
-
+	background: lightblue;
+}
+.table {
+	padding: 10px;
+	margin: auto;
+	text-align: center;
+	border-style: dotted;
+	border-color: red;
+	width: 335px;
+}
+html {
+	text-align: center;
+}
+#image {
+	padding: 50px;
+	background-image: url("background.jpg");
+}
+.manutd {
+	font-family: courier;
+}
+a {
+	color: yellow;
+}
+@media (max-width: 800px) {
+  body {
+    background-color: limegreen;
+  }
 }
