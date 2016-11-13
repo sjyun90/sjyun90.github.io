@@ -1,0 +1,12 @@
+body {
+	background-color: darkgray;
+	margin: auto;
+}
+
+.table {
+	padding: 15px;
+	border: 2px dotted blue;
+	text-align: center;
+	width: 500px;
+}
+
