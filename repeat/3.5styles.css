@@ -3,15 +3,29 @@ body {
 	margin: auto;
 }
 
+.greeting {
+	font-size: 40px;
+}
+
 .table {
 	padding: 15px;
 	border: 2px dotted blue;	
 	text-align: center;
 	width: 500px;
-
 }
 
-.brands {
+#brands {
 	text-align: center;
 	background-image: url("background.jpg");
+}
+
+#description {
+	font-family: courier;
+	font-style: Italic;
+}
+
+@media (max-width: 400px) {
+  body {
+    background-color: red;
+  }
 }
